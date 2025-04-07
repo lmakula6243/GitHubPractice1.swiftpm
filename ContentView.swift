@@ -11,5 +11,6 @@ struct ContentView: View {
         TextField("Enter your name", text: $name)
         
         Text("Hi, \(name)")
+        Image(systemName: "pencil")
     }
 }
