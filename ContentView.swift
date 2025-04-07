@@ -12,5 +12,12 @@ struct ContentView: View {
         
         Text("Hi, \(name)")
         Image(systemName: "pencil")
+        Button {
+          
+        } label: {
+            Image(systemName: "star")
+        }
+
     }
+
 }
